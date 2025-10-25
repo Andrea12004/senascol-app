@@ -1,8 +1,7 @@
+# requirements.txt
 kivy
-kivymd
-opencv-python
-mediapipe
-tensorflow
+opencv-python-headless
+mediapip
 numpy
 requests
 pyttsx3
