@@ -1,6 +1,9 @@
-pyttsx3
 kivy
-numpy
-pillow
+kivymd
+opencv-python
 mediapipe
-
+tensorflow
+numpy
+requests
+pyttsx3
+Pillow
