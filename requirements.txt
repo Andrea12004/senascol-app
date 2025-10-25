@@ -1,0 +1,6 @@
+pyttsx3
+kivy
+numpy
+pillow
+mediapipe
+
