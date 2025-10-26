@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@android:color/white"
+    android:gravity="center">
+
+    <!-- Logo -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🤟"
+        android:textSize="80sp"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Título -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SeñasCol"
+        android:textSize="42sp"
+        android:textStyle="bold"
+        android:textColor="#1E3A8A"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Subtítulo -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Traductor de Lengua de Señas Colombiano"
+        android:textSize="16sp"
+        android:textColor="#666666"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"/>
+
+    <!-- Botón: Señas a Texto -->
+    <Button
+        android:id="@+id/btnSenasATexto"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:text="🤟 Señas a Texto\n\nReconoce gestos de lengua de señas\ny los traduce a texto escrito"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:background="#1E3A8A"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Botón: Texto a Señas -->
+    <Button
+        android:id="@+id/btnTextoASenas"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:text="📝 Texto a Señas\n\nConvierte texto escrito en\nrepresentaciones visuales"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:background="#00C0C7"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Footer -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Comunicación sin barreras"
+        android:textSize="14sp"
+        android:textColor="#999999"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

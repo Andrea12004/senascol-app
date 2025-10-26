@@ -74,7 +74,22 @@ class SignLanguageTranslator:
         self.init_mediapipe()
         
         print("✅ Traductor listo")
-    
+    def process_frame_android(self, bitmap):
+        """
+        Método especial para procesar Bitmap de Android
+        """
+        import io
+        from PIL import Image
+        
+        # Convertir Bitmap a numpy array
+        # (Chaquopy maneja esto automáticamente)
+        frame = np.array(bitmap)
+        
+        # Convertir RGB a BGR (OpenCV usa BGR)
+        frame = cv2.cvtColor(frame, cv2.COLOR_RGB2BGR)
+        
+        # Procesar normalmente
+        return self.process_frame(frame)
     def load_models(self):
         """Carga modelos TensorFlow Lite"""
         if tflite is None:

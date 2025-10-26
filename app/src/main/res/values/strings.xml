@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SeñasCol</string>
+    <string name="subtitle">Traductor de Lengua de Señas Colombiano</string>
+    <string name="footer">Comunicación sin barreras</string>
+</resources>
